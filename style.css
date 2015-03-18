@@ -11,3 +11,14 @@
  Tags:         responsive-layout, mobile-first
  Text Domain:  HTML5-Reset-child
 */
+#header{
+	background: -webkit-linear-gradient(rgb(124,124,124), black); 
+	background: -o-linear-gradient(rgb(124,124,124), black); 
+	background: -moz-linear-gradient(rgb(124,124,124), black); 
+	background: linear-gradient(rgb(124,124,124), black);
+	padding: 1%;
+}
+h1, a {
+	color: white;
+	text-decoration: none;
+}
