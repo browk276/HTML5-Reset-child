@@ -3,7 +3,7 @@
  Theme URI:    https://github.com/browk276/HTML5-Reset-child
  Description:  HTML5 Reset Child Theme
  Author:       Awesome Dude
- Author URI:   http://example.com
+ Author URI:   
  Template:     HTML5-Reset-WordPress-Theme
  Version:      0.0.1
  License:      GNU General Public License v2 or later
@@ -17,6 +17,7 @@
 	background: -moz-linear-gradient(rgb(124,124,124), black); 
 	background: linear-gradient(rgb(124,124,124), black);
 	padding: 1%;
+	
 }
 h1, a {
 	color: white;
