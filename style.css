@@ -12,14 +12,16 @@
  Text Domain:  HTML5-Reset-child
 */
 #header{
-	background: -webkit-linear-gradient(rgb(124,124,124), black); 
-	background: -o-linear-gradient(rgb(124,124,124), black); 
-	background: -moz-linear-gradient(rgb(124,124,124), black); 
-	background: linear-gradient(rgb(124,124,124), black);
+	background: -webkit-linear-gradient(rgb(124,124,124), rgb(0,0,0)); 
+	background: -o-linear-gradient(rgb(124,124,124), rgb(0,0,0)); 
+	background: -moz-linear-gradient(rgb(124,124,124), rgb(0,0,0)); 
+	background: linear-gradient(rgb(124,124,124), rgb(0,0,0));
 	padding: 1%;
 	position: fixed;
 	top: 0%;
 	left: 0%;
+	
+	width: 12.6%;
 	
 }
 h1{
@@ -30,8 +32,20 @@ li{
 	display: inline;
 }
 .menu-mainmenu-container{
-	background: -webkit-linear-gradient(rgb(124,124,124), black); 
-	background: -o-linear-gradient(rgb(124,124,124), black); 
-	background: -moz-linear-gradient(rgb(124,124,124), black); 
-	background: linear-gradient(rgb(124,124,124), black);
+	width: 87.4%;
+	position: fixed;
+	top: 0%;
+	right: 0%;
+	padding: 1%;
+	background: -webkit-linear-gradient(rgb(124,124,124), rgb(0,0,0)); 
+	background: -o-linear-gradient(rgb(124,124,124), rgb(0,0,0)); 
+	background: -moz-linear-gradient(rgb(124,124,124), rgb(0,0,0)); 
+	background: linear-gradient(rgb(124,124,124), rgb(0,0,0));
+}
+.home{
+	margin-top: 3.25%;
+}
+li.menu-item > a, h1 > a{
+	color: rgb(255,255,255);
+	text-decoration: none;
 }
