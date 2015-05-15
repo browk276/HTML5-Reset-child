@@ -7,7 +7,8 @@ get header()
 <div class="row">
 	<div class="spacer col-md-1"></div>
 	<div class="content col-md-8">
-	
+		<h2>IIINNNDDDEEEXXX!!!</h2>
+			
 	</div>
 	<div class="sidebar col-md-2">
 		<?php get_sidebar(); ?>
