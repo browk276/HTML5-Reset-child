@@ -9,7 +9,7 @@ get_header(); ?>
 		<h2><?php single_cat_title( '' , true); ?></h2>
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<article class="post" id="post-<?php the_ID();?>">
-			<h1><a href="the_permalink()"><?php the_title(); ?></a></h1>
+			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 			<div class="entry-content">
 				<?php the_excerpt(); ?>
 				<?php wp_link_pages(array('before' => __('Pages: ','html5resetchild'), 'next_or_number' => 'number')); ?>
