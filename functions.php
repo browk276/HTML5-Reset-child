@@ -23,5 +23,5 @@ function theme_enqueue_styles() {
 	
 	// Load Bootstap js file
 	wp_enqueue_script( 'script-name', get_stylesheet_directory_uri().'/js/bootstrap.min.js ', array(), '3.3.4', true );
-}
+	}
 ?>

@@ -13,7 +13,7 @@
 get_header(); ?>
 <div class="row">
 	<div class="content col-md-10">
-		<h2>444000444!!!<?php _e('Error 404 - Page Noty Found','html5reset'); ?></h2>
+		<h2>444000444!!!<?php _e('Error 404 - Page Not Found','html5reset'); ?></h2>
 	</div>
 	<div class="sidebar col-md-2">
 		<?php get_sidebar(); ?>
