@@ -35,6 +35,9 @@ article>a:hover{
 a[rel*="bookmark"]{
 	text-decoration: none;
 }
+article.post > h2 > a{
+	color: rgb(0,76,58);
+}
 
 
 /*\\\Header///*/
@@ -45,7 +48,7 @@ header > h1{
 }
 li.menu-item{
 	display: inline;
-	padding: 4px;
+	padding: 4px 5px;
 }
 header#header{
 	background-color:rgb(22,23,27);
@@ -137,4 +140,11 @@ div.really_simple_share_specificfeeds_follow{
 }
 div.content, div.header{
 	font-family: "Arial Regular", Helvetica Regular, sans-serif;
+}
+time.entry-date{
+	color: #333;
+	text-decoration: underline;
+}
+time.entry-date:hover{
+	text-decoration: line-through;
 }
