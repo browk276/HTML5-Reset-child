@@ -38,11 +38,11 @@ a[rel*="bookmark"]{
 article.post > h2 > a{
 	color: rgb(0,76,58);
 }
-
-
-/*\\\Header///*/
-
-
+/*\\\Header/Navigation///*/
+/*\\\Header/Navigation///*/
+/*\\\Header/Navigation///*/
+/*\\\Header/Navigation///*/
+/*\\\Header/Navigation///*/
 header > h1{
 	margin: 0px;
 }
@@ -78,6 +78,8 @@ li>a{
 h1>a{
 	font-size: 150%;
 }
+/*\\\Header/Navigation has ended///*/
+
 
 /*\\\sidebar\\\*/
 
@@ -128,6 +130,9 @@ footer#colophon{
 /*\\\Body\\\*/
 
 
+a#email_follow:hover{
+	text-decoration: none;
+}
 body.home{
 	background-color: rgb(250,250,250);
 }
@@ -137,6 +142,9 @@ div.really_simple_share_facebook_like{
 }
 div.really_simple_share_specificfeeds_follow{
 	margin: 0px;
+}
+div#readygraph_related_tags_title, ___gcse_0{
+	display:none;
 }
 div.content, div.header{
 	font-family: "Arial Regular", Helvetica Regular, sans-serif;

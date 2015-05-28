@@ -5,7 +5,7 @@
 get_header(); ?>
 <div class="row">
 	<div class="spacer col-md-1"></div>
-	<div class="content col-md-8">
+	<div class="content col-md-7">
 		<h2><?php single_cat_title( '' , true); ?></h2>
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<article class="post" id="post-<?php the_ID();?>">
@@ -25,7 +25,7 @@ get_header(); ?>
 
 	<?php endif; ?>
 	</div>
-	<div class="sidebar col-md-2">
+	<div class="sidebar col-md-3">
 		<?php post_navigation(); get_sidebar();?>
 	</div>
 	<div class="spacer col-md-1"></div>

@@ -8,7 +8,7 @@
 <?php get_header(); ?>
 <div class="row">
 	<div class="spacer col-md-1"></div>
-	<div class="content col-md-8">
+	<div class="content col-md-7">
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<article class="post post-single" id="post-<?php the_ID();?>">
 			<h1><?php the_title(); ?></h1>
@@ -28,7 +28,7 @@
 
 	<?php endif; ?>
 	</div>
-	<div class="sidebar col-md-2">
+	<div class="sidebar col-md-3">
 		<?php post_navigation(); get_sidebar();?>
 	</div>
 	<div class="spacer col-md-1"></div>
