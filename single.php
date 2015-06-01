@@ -6,12 +6,12 @@
  */?>
 
 <?php get_header(); ?>
-<div class="row">
+<div class="content row">
 	<div class="spacer col-md-1"></div>
 	<div class="content col-md-7">
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<article class="post post-single" id="post-<?php the_ID();?>">
-			<h1><?php the_title(); ?></h1>
+			<h2><?php the_title(); ?></h2>
 			<div class="entry-content">
 				<?php the_content(); ?>
 				<?php wp_link_pages(array('before' => __('Pages: ','html5resetchild'), 'next_or_number' => 'number')); ?>

@@ -38,11 +38,11 @@ a[rel*="bookmark"]{
 article.post > h2 > a{
 	color: rgb(0,76,58);
 }
+
+
 /*\\\Header/Navigation///*/
-/*\\\Header/Navigation///*/
-/*\\\Header/Navigation///*/
-/*\\\Header/Navigation///*/
-/*\\\Header/Navigation///*/
+
+
 header > h1{
 	margin: 0px;
 }
@@ -78,7 +78,6 @@ li>a{
 h1>a{
 	font-size: 150%;
 }
-/*\\\Header/Navigation has ended///*/
 
 
 /*\\\sidebar\\\*/
@@ -111,7 +110,7 @@ label.screen-reader-text{
 	display: none;
 }
 form#searchform{
-	padding: 5px;                                                                         
+	padding: 5px;     
 }
 
 
