@@ -10,7 +10,7 @@
  */
 ?>
 
-
+</div>
 		<div class="row">
 		<div class="col-md-12">
 		<footer id="colophon" class="site-footer" role="contentinfo">

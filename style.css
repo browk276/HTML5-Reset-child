@@ -38,6 +38,9 @@ a[rel*="bookmark"]{
 article.post > h2 > a{
 	color: rgb(0,76,58);
 }
+#wrapper{
+	max-width: 98%;
+}
 
 
 /*\\\Header/Navigation///*/
@@ -62,7 +65,7 @@ ul.menu{
 	background: linear-gradient(rgb(0,100,51), rgb(0,76,58));
 	margin: 0px;
 	height: auto;
-	padding: 3px;
+	padding: 1em;
 }
 h1 > a, h1 > a:hover, li > a, li > a:hover, li.menu-item{
 	color: rgb(245,245,245);

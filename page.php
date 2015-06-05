@@ -1,16 +1,12 @@
 <?php
 /**
- * The template for displaying all pages
- *
- * @package WordPress
- * @subpackage HTML5-Reset-WordPress-Theme
- * @since HTML5 Reset Child 1.0
+ * 
  */?>
  
 <?php get_header(); ?>
+<h1>PPPAAAGGGEEEW!!!</h1>
 <div class="content row">
-	<div class="spacer col-md-1"></div>
-	<div class="content col-md-7">
+	<div class="content col-md-7 col-md-offset-1">
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<article class="page" id="page-<?php the_ID(); ?>">
 				<h2><?php the_title(); ?></h2>
@@ -30,6 +26,5 @@
 	<div class="sidebar col-md-3">
 		<?php post_navigation(); get_sidebar(); ?>
 	</div>
-	<div class="spacer col-md-1"></div>
 </div>
 <?php get_footer(); ?>

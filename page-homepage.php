@@ -2,21 +2,21 @@
 /**
 * Template Name: Home Page Template
 */
-get header()?>
+get_header()?>
 
 <div class="row highlights">
 	<div class="post-highlight col-md-6">
 		<!-- Goal: get most recent post from the Dry Rot category-->
-		<?php $the_query = new WP_Query('category_name=dry_rot&posts_per_page=1');
+		<?php $the_query = new WP_Query('category_name=dryrot&posts_per_page=1');
 			if ($the_query->have_posts()) : while ($the_query->have_posts()) : $the_query->the_post();
 		?>
 		<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-		<?php the excerpt(); ?>
+		<?php the_excerpt(); ?>
 		<?php endwhile; endif; ?>
 	</div>
 	<div class="post-highlight col-md-6">
 		<!-- Goal: get the most recent post from Water Leaks category-->
-		<?php $the_query = new WP_Query('category_name=water_leaks&posts_per_page=1');
+		<?php $the_query = new WP_Query('category_name=water&posts_per_page=1');
 			if ($the_query->have_posts()) : while ($the_query->have_posts()) : $the_query->the_post();
 		?>
 		<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
