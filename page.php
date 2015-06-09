@@ -4,9 +4,8 @@
  */?>
  
 <?php get_header(); ?>
-<h1>PPPAAAGGGEEEW!!!</h1>
 <div class="content row">
-	<div class="content col-md-7 col-md-offset-1">
+	<div class="content col-md-8">
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<article class="page" id="page-<?php the_ID(); ?>">
 				<h2><?php the_title(); ?></h2>
@@ -23,7 +22,7 @@
 			</article>
 			<?php endif;?>
 	</div>
-	<div class="sidebar col-md-3">
+	<div class="sidebar col-md-4">
 		<?php post_navigation(); get_sidebar(); ?>
 	</div>
 </div>
