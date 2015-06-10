@@ -10,18 +10,22 @@ get_header()?>
 		<?php $the_query = new WP_Query('category_name=dryrot&posts_per_page=1');
 			if ($the_query->have_posts()) : while ($the_query->have_posts()) : $the_query->the_post();
 		?>
-		<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-		<?php the_excerpt(); ?>
-		<?php endwhile; endif; ?>
+		<article class="post" id="post-<?php the_ID(); ?>">
+			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+			<?php the_excerpt(); ?>
+			<?php endwhile; endif; ?>
+		</article>
 	</div>
 	<div class="post-highlight col-md-6">
 		<!-- Goal: get the most recent post from Water Leaks category-->
 		<?php $the_query = new WP_Query('category_name=water&posts_per_page=1');
 			if ($the_query->have_posts()) : while ($the_query->have_posts()) : $the_query->the_post();
 		?>
-		<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-		<?php the_excerpt(); ?>
-		<?php endwhile; endif; ?>
+		<article class="post" id="post-<?php the_ID(); ?>">
+			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+			<?php the_excerpt(); ?>
+			<?php endwhile; endif; ?>
+			</article>
 	</div>
 </div>
 
@@ -29,7 +33,7 @@ get_header()?>
 	<div class="content col-md-8">
 		<?php if (have_posts()) : while (have_posts()): the_post(); ?>
 			<article class="post" id="post-<?php the_ID(); ?>">
-				<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+				<h2><?php the_title(); ?></h2>
 				<div class="entry">
 					<?php the_excerpt(); ?>
 				</div>

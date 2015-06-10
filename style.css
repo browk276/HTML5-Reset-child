@@ -48,6 +48,7 @@ article.post > h2 > a{
 
 header > h1{
 	margin: 0px;
+	color: rgb(245,245,245);
 }
 li.menu-item{
 	display: inline;
@@ -67,11 +68,11 @@ ul.menu{
 	height: auto;
 	padding: 1em;
 }
-h1 > a, h1 > a:hover, li > a,  li.menu-item{
+h1 > a, h1 > a:hover, li > a, li.menu-item{
 	color: rgb(245,245,245);
 	text-decoration: none;
 }
-li > a:hover{
+li > a:hover, header#header > h1 > a:hover{
 	color: rgb(245,245,245);
 	text-decoration: underline;
 }
@@ -81,6 +82,10 @@ div.description{
 }
 li>a{
 	font-size: 130%;
+}
+header#header > h1 > a:active, li > a:active{
+	color: rgb(245,245,245);
+	text-decoration: line-through;
 }
 h1>a{
 	font-size: 150%;
@@ -122,12 +127,19 @@ form#searchform{
 }
 h3.widget-title{
 	border-bottom: 1px solid black;
+	padding-left: .25em;
 }
 input#searchsubmit, input#s{
 	border-radius: 15px;
 }
 input#s{
 	padding: 3px;
+}
+h3.widget-title > ul > li > a[title*="Powered by WordPress, state-of-the-art semantic personal publishing platform."]{
+	color: red;
+}
+div.widget > ul > li{
+	padding-left: .75em;
 }
 
 
@@ -171,4 +183,24 @@ time.entry-date{
 }
 time.entry-date:hover{
 	text-decoration: line-through;
+}
+
+
+/*\\\Contact Page\\\*/
+
+
+input.text{
+	border-radius: 15px;
+	padding-left: 3px;
+}
+textarea#cntctfrm_contact_message, input.cntctfrm_contact_submit{
+	border-radius: 15px;
+}
+
+
+/*\\\Category\\\*/
+
+
+div.content > h2{
+	color: black;
 }
