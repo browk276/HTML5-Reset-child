@@ -128,13 +128,13 @@
 
 	<!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
 	<div class="header row">
-		<div class="header col-md-12">
+		<div class="header col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 			<header id="header" role="banner">
 				<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				<div class="description"><?php bloginfo( 'description' ); ?></div>
 			</header>
 		</div>
-		<div class="menu col-md-12">
+		<div class="menu col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 			<nav id="nav" role="navigation">
 				<?php wp_nav_menu( array('menu' => 'primary') ); ?>
 			</nav>

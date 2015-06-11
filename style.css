@@ -100,6 +100,7 @@ aside#sidebar{
 	border: 1px solid black;
 	border-radius: 10px;
 	background-color: rgb(240,240,240);
+	margin-bottom: 3em;
 }
 aside h2{
 	border-top: 1px solid black;
@@ -203,4 +204,12 @@ textarea#cntctfrm_contact_message, input.cntctfrm_contact_submit{
 
 div.content > h2{
 	color: black;
+}
+
+
+/*\\\Search.php\\\*/
+
+
+div.post > h2 > a[rel*="bookmark"]{
+	color: #333;
 }
